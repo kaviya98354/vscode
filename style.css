@@ -1,0 +1,16 @@
+body{
+
+    
+}
+
+h1{
+    display: flex;
+    text-align: center;
+    color:purple;
+        
+}
+.waste{ 
+    display: flex;
+    justify-content: space-between;
+    color: pink;
+}
