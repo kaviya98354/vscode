@@ -1,0 +1,46 @@
+body{
+    background-image: url(hi.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.abc{
+    
+    
+    
+}
+.h{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 120px;
+    border: 10px solid;
+    
+
+}
+#a{
+    color: orange;
+}
+#b{
+    color: white;
+    font-style:oblique ;
+}
+#c{
+    color: lightblue;
+}
+#x{
+    position: relative;
+    color: blue;
+    display: flex;
+    justify-content: center;
+    bottom: 150px;
+    left: 70px;
+}
+#y{
+    position: relative;
+    color: blue;
+    display: flex;
+    justify-content: center;
+    bottom: 100px;
+    left: 70px;
+}
