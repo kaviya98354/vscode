@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <ul>
+        <li class="list"><a href="javascript:void(0)">Kaviya</a></li>
+        <li class="list"><a href="javascript:void(0)">Ramiya</a></li>
+        <li class="list"><a href="javascript:void(0)">Viginesh</a></li>
+    </ul>
+    <button onclick="addItem()">click</button>
+    <button onclick="hide()">Hide</button>
+    <div id="1">
+        <p>Kaviya and remiya mendals</p>
+        <span>Prakashuu is good boy</span>
+    </div>
+    <script>
+        function addItem(){
+            $('ul').append(`<li class="list"><a href="javascript:void(0)">Prakashuu</a></li>`)
+
+        }
+        function hide(){
+            $('ul li').last().hide();
+        }
+        $('#1').on('click','span',function(e){
+            console.log($(this).text())
+           // e.stopPropagation()
+        })
+        $('#1').on('click',function(e){
+            console.log($(this).text())
+           // e.stopPropagation()
+        })
+        
+    </script>
+
+</body>
+</html>
