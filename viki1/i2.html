@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ice Cream Shop</title>
+    <link rel="stylesheet" href="c1.css">
+</head>
+<body>
+    <header>
+        <h1>Ice Cream Shop</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="products.html">Products</a>
+            <a href="contacts.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="products">
+            <div class="product" data-id="1">
+                <img src="vanilla.jpg" alt="Vanilla Ice Cream">
+                <h2>Vanilla Ice Cream</h2>
+                <p>$3.99</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product" data-id="2">
+                <img src="chocolate.jpg" alt="Chocolate Ice Cream">
+                <h2>Chocolate Ice Cream</h2>
+                <p>$4.49</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <!-- Add more products here -->
+        </section>
+        <aside>
+            <h2>Shopping Cart</h2>
+            <ul id="cart-items"></ul>
+            <p id="total-price">Total: $0.00</p>
+             
+        </aside>
+    </main>
+
+    <script src="document.js"></script>
+</body>
+</html>
